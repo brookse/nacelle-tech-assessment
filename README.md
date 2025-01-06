@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Setup Instructions
 ```
+  npm i
+  npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+  npm run test
+```
+To run test suites.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Brief explanation of approach
+General
+- The products and their categories are shared across both features, and designed to share keywords across multiple categories (e.g. `peppermint` can be found in chocolate, hard candy, and taffy).
+- Designed to be responsive, so both features work well on mobile and small screens.
+- I went light on design to put more focus on each feature, but I wanted theming to be clean, soft, and whimsical to couple with the candy subject.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Searchbar
+- By using type="search" instead of "input", we can use built-in features such as the clear button.
+- In order to see the loading state, I put in a small timeout.
+- Enter "error" to see the error state.
 
-## Learn More
+Search Results
+- I used the `<mark>` tag instead of `<span>` to help increase accessibilty; `mark` is used to highlight text, so it gives a tip to screen readers that this text is important.
 
-To learn more about Next.js, take a look at the following resources:
+# Technologies used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) using React as a framework.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I used Jest for testing, including the `jest-axe` package for accessibility testing.

@@ -12,6 +12,20 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'fade-in': "fadeIn 0.3s ease-in-out",
+        'fade-out': "fadeOut 0.3s ease-in-out",
+      },
+      keyframes: {
+				fadeIn: {
+					from: { opacity: '0' },
+					to: { opacity: '1'},
+				},
+        fadeOut: {
+					from: { opacity: '1' },
+					to: { opacity: '0'},
+				},
+			},
     },
   },
   plugins: [],

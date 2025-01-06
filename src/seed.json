@@ -1,0 +1,147 @@
+[
+  {
+    "id": "c-1",
+    "title": "Peppermint Patty",
+    "category": "Chocolate"
+  },
+  {
+    "id": "c-2",
+    "title": "Milk Chocolate Bar",
+    "category": "Chocolate"
+  },
+  {
+    "id": "c-3",
+    "title": "Dark Chocolate Bar",
+    "category": "Chocolate"
+  },
+  {
+    "id": "c-4",
+    "title": "White Chocolate Bar",
+    "category": "Chocolate"
+  },
+  {
+    "id": "c-5",
+    "title": "Malted Milk Ball",
+    "category": "Chocolate"
+  },
+  {
+    "id": "c-6",
+    "title": "Mallo Cup",
+    "category": "Chocolate"
+  },
+  {
+    "id": "g-1",
+    "title": "Gummy Worms",
+    "category": "Gummy"
+  },
+  {
+    "id": "g-2",
+    "title": "Gummy Bears",
+    "category": "Gummy"
+  },
+  {
+    "id": "g-3",
+    "title": "Peach Rings",
+    "category": "Gummy"
+  },
+  {
+    "id": "g-4",
+    "title": "Sour Patch Kids",
+    "category": "Gummy"
+  },
+  {
+    "id": "g-5",
+    "title": "Swedish Fish",
+    "category": "Gummy"
+  },
+  {
+    "id": "g-6",
+    "title": "Licorice",
+    "category": "Gummy"
+  },
+  {
+    "id": "h-1",
+    "title": "Butterscotch",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "h-2",
+    "title": "Peppermint",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "h-3",
+    "title": "Lemon Drop",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "h-4",
+    "title": "Cinnamon Stick",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "h-5",
+    "title": "Espresso",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "h-6",
+    "title": "Caramel",
+    "category": "Hard Candy"
+  },
+  {
+    "id": "t-1",
+    "title": "Peach",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-2",
+    "title": "Peppermint",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-3",
+    "title": "Watermelon",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-4",
+    "title": "Chocolate",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-5",
+    "title": "Cinnamon",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-6",
+    "title": "Black Licorice",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-7",
+    "title": "Marshmallow",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-8",
+    "title": "Strawberry",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-9",
+    "title": "Raspberry",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-10",
+    "title": "Blueberry",
+    "category": "Salt Water Taffy"
+  },
+  {
+    "id": "t-11",
+    "title": "Licorice",
+    "category": "Salt Water Taffy"
+  }
+]
