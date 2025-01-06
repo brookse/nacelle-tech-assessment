@@ -29,11 +29,11 @@ export default function ModalPage() {
 
   return (
     <main className="flex flex-col items-start w-full">
-      <h1 className="text-stone-700 text-2xl font-bold pb-4">Lyzzi&apos;s Candy Store</h1>
+      <h1 className="pb-4 text-stone-700 text-2xl font-bold">Lyzzi&apos;s Candy Store</h1>
 
-      <div className='w-full gap-2 flex justify-between flex-wrap'>
+      <div className='flex justify-between flex-wrap w-full gap-2'>
         { productCategories.map((category) => (
-          <button key={category} className='px-3 py-6 w-1/5 min-w-full sm:min-w-[150px] transition-all bg-white hover:bg-pink-500 hover:text-white hover:shadow-md cursor-pointer border rounded-2xl text-pink-500 text-center font-semibold' onClick={() => onCategorySelect(category)}>
+          <button key={category} className='transition-all px-3 py-6 w-1/5 min-w-full sm:min-w-[150px] bg-white border rounded-2xl hover:bg-pink-500 hover:text-white hover:shadow-md text-pink-500 text-center font-semibold cursor-pointer' onClick={() => onCategorySelect(category)}>
             {category}
           </button>
         ))}
@@ -44,7 +44,7 @@ export default function ModalPage() {
           { activeProducts.map((product) => (
             <div key={product.id} className='flex justify-between items-center'>
               <h1 className='text-stone-700'>{product.title}</h1>
-              <button className='px-2 py-1 bg-pink-400 hover:bg-pink-500 text-white text-sm rounded-lg hover:shadow-md' onClick={onModalClose}>Add to Cart</button>
+              <button className='px-2 py-1 rounded-lg bg-pink-400 hover:bg-pink-500 hover:shadow-md text-white text-sm' onClick={onModalClose}>Add to Cart</button>
             </div>
           ))}
         </div>

@@ -48,7 +48,7 @@ export default function SearchPage() {
 
   return (
     <main className="flex flex-col items-start w-full md:w-2/3">
-      <h1 className="text-stone-700 text-2xl font-bold pb-4">Lyzzi&apos;s Candy Store</h1>
+      <h1 className="text-stone-700 pb-4 text-2xl font-bold">Lyzzi&apos;s Candy Store</h1>
       <Searchbar
         onSearch={handleSearch}
         placeholder="Search for your favorite candy"

@@ -52,11 +52,11 @@ export const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
   }
 
   return (
-    <div className='animate-fade-in animation-fade-out z-50 fixed top-0 left-0 flex justify-center items-center'>
+    <div className='animate-fade-in animation-fade-out flex justify-center items-center z-50 fixed top-0 left-0'>
       <div role="presentation" className='h-screen w-screen bg-black bg-opacity-50' onClick={onClose}></div>
 
-      <div role="dialog" id={`${title} category modal`} aria-label={`${title} category modal`} className='animate-fade-in bg-white p-4 fixed rounded-lg h-[100%] w-full sm:w-1/2 sm:max-h-[50%] overflow-y-scroll'>
-        <div className='pb-4 flex justify-between'>
+      <div role="dialog" id={`${title} category modal`} aria-label={`${title} category modal`} className='animate-fade-in fixed h-[100%] sm:max-h-[50%] w-full sm:w-1/2 p-4 overflow-y-scroll bg-white rounded-lg'>
+        <div className='flex justify-between pb-4'>
           <h1 className='text-stone-700 text-xl font-semibold'>{title}</h1>
           <button onClick={onClose} aria-label='Close modal' className="hover:text-pink-500">✕</button>
         </div>
